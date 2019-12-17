@@ -1,0 +1,47 @@
+﻿<section>
+    <div  class="border-bottom pt-4 pb-2 mb-3">
+        <h2 style="text-align:center" data-bind="text:displayName"></h2>
+    </div>
+    
+        <form class="form-inline">
+
+            <div class="col" style="text-align:center"><img src="../../images/cave.png" data-bind="click: getPokemoncave" style="height:60px;width:60px" /> <br><b> Cave </b> </div>
+            <div class="col" style="text-align:center"><img src="../../images/forest.png" data-bind="click: getPokemonforest" style="height:60px;width:60px" /> <br><b> Forest </b> </div>
+            <div class="col" style="text-align:center"><img src="../../images/grassland.png" data-bind="click: getPokemongrassland" style="height:60px;width:60px" /> <br><b> Grassland </b> </div>
+            <div class="col" style="text-align:center"><img src="../../images/mountain.png" data-bind="click: getPokemonmountain" style="height:60px;width:60px" /> <br><b> Mountain </b>  </div>
+            <div class="col" style="text-align:center"><img src="../../images/rare.png" data-bind="click: getPokemonrare" style="height:60px;width:60px" /> <br><b> Rare </b> </div>
+            <div class="col" style="text-align:center"><img src="../../images/roughterrain.png" data-bind="click: getPokemonroughterrain" style="height:60px;width:60px" /> <br><b> Rough Terrain </b></div>
+            <div class="col" style="text-align:center"><img src="../../images/sea.png" data-bind="click: getPokemonsea" style="height:60px;width:60px" /> <br><b> Sea </b> </div>
+            <div class="col" style="text-align:center"><img src="../../images/urban.png" data-bind="click: getPokemonurban" style="height:60px;width:60px" /> <br><b> Urban </b></div>
+            <div class="col" style="text-align:center"><img src="../../images/watersedge.png" data-bind="click: getPokemonwatersedge" style="height:60px;width:60px" /> <br><b> Water's Edge </b> </div>
+
+        </form>
+        
+   
+
+    <div class="row" style="color:white"> .</div>
+   
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th style="text-align:center" scope="col">ID</th>
+                <th style="text-align:center" scope="col">Name</th>
+                <th style="text-align:center" scope="col">Sprite</th>
+                <th style="text-align:center" scope="col">Details</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: pokemons">
+            <tr>
+                <td style="text-align:center;vertical-align:middle" data-bind="text:Id"></td>
+                <td style="text-align:center;vertical-align:middle" data-bind="text:Name"></td>
+                <td style="text-align:center;vertical-align:middle">
+                    <span class="d-inline-block img-thumbnail text-center mb-2">
+                        <img class="m-2" data-bind="attr : { src : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + Id + '.png', style : 'image-rendering:pixelated ;width: 100px;', title: Name}" onerror="this.src = '/images/pokemon-icon.png'; this.style.width = '128px';" />
+
+                    </span>
+                </td>
+                <td class="text-center"style="vertical-align:middle" ><a class="btn btn-outline-secondary btn-sm" data-bind="attr: {href:'#pokemonDetails/'+Id }"><i class="fa fa-eye"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>

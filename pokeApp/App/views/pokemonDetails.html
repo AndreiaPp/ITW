@@ -1,0 +1,76 @@
+﻿<section>
+    <div class="border-bottom pt-4 pb-2 mb-3">
+        <h2 style="text-align:center" data-bind="text:displayName"></h2>
+    </div>
+    <dl data-bind="with: record" class="row">
+        <dt class="form-control-plaintext col-sm-2">Id</dt>
+        <dd class="form-control-plaintext col-sm-10" data-bind="text:Id"></dd>
+        <dt class="form-control-plaintext col-sm-2">Name</dt>
+        <dd class="form-control-plaintext col-sm-10">
+            <div data-bind="text:Name.toUpperCase()"></div>
+        </dd>
+        <dt class="form-control-plaintext col-sm-2">Picture</dt>
+        <dd class="form-control-plaintext col-sm-10 text-left">
+
+
+            <span class="d-inline-block img-thumbnail text-center mb-2">
+                <img class="m-2" data-bind="attr : {  src : 'http://ieeta-cloudpt.web.ua.pt/pokemons/Imagens/' + Id + '.png', style : 'width: 256px;', title: Name}" onerror="this.src = '/images/pokemon-icon.png'; this.style.width = '128px';" />
+
+            </span>
+
+        </dd>
+
+        <dt class="form-control-plaintext col-sm-2">Base Experience</dt>
+        <dd class="form-control-plaintext col-sm-10" data-bind="text:BaseExperience"></dd>
+        <dt class="form-control-plaintext col-sm-2">Mass</dt>
+        <dd class="form-control-plaintext col-sm-10" data-bind="text:Mass"></dd>
+        <dt class="form-control-plaintext col-sm-2">Height</dt>
+        <dd class="form-control-plaintext col-sm-10" data-bind="text:Height"></dd>
+        <dt class="form-control-plaintext col-sm-2">Order</dt>
+        <dd class="form-control-plaintext col-sm-10" data-bind="text:Order"></dd>
+        <dt class="form-control-plaintext col-sm-2">Specie</dt>
+        <dd class="form-control-plaintext col-sm-2" ><a class="btn btn-outline-secondary d-block" data-bind="text: Specie.Name, attr:{ href: '#SpecieDetails/' + Id}"></a></dd>
+        <dd class="col-sm-6" style="color:white">.</dd>
+        <dt class="col-sm-2"><a class="btn btn-outline-secondary" href="javascript:history.go(-1)"><i class=" fa fa-arrow-circle-o-left"></i> Go back</a></dt>
+
+        
+        <dd class="col-sm-6">
+            <table class="table table-active table-sm">
+
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center;color:black">Stats</th>
+                        <th scope="col" style="text-align:center;color:black">Base Value</th>
+
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: Pokemon_Stats">
+                    <tr>
+                        <td data-bind="text:Name" style="text-align:center"></td>
+                        <td data-bind="text:BaseValue" style="text-align:center"></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </dd>
+
+        <dd class="col-sm-6">
+            <table class="table table-active table-sm">
+
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center;color:black">Moves</th>
+
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: Moves">
+                    <tr>
+                        <td data-bind="text:Name" style="text-align:center"></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>   
+    <a class="btn btn-outline-secondary" href="javascript:history.go(-1)"><i class=" fa fa-arrow-circle-o-left"></i> Go back </a>
+</section>

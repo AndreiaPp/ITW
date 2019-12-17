@@ -1,0 +1,44 @@
+﻿<section>
+    <div class="border-bottom pt-4 pb-2 mb-3">
+        <h2 style="text-align:center" data-bind="text:displayName"></h2>
+    </div>
+    <form class="form-inline">
+
+        <div class="col"><img src="../../images/red.png" data-bind="click: getPokemonred" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/blue.png" data-bind="click: getPokemonblue" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/yellow.png" data-bind="click: getPokemonyellow" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/green.png" data-bind="click: getPokemongreen" style="height:60px;width:60px" />  </div>
+        <div class="col"><img src="../../images/black.png" data-bind="click: getPokemonblack" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/brown.png" data-bind="click: getPokemonbrown" style="height:60px;width:60px" /></div>
+        <div class="col"><img src="../../images/purple.png" data-bind="click: getPokemonpurple" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/gray.png" data-bind="click: getPokemongray" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/white.png" data-bind="click: getPokemonwhite" style="height:60px;width:60px" /> </div>
+        <div class="col"><img src="../../images/pink.png" data-bind="click: getPokemonpink" style="height:60px;width:60px" /> </div>
+
+
+    </form>
+    <div class="row" style="color:white"> .</div>
+    <table class="table  table-sm">
+        <thead>
+            <tr>
+                <th style="text-align:center" scope="col">ID</th>
+                <th style="text-align:center" scope="col">Name</th>
+                <th style="text-align:center" scope="col">Sprite</th>
+                <th style="text-align:center" scope="col">Details</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: pokemons">
+            <tr>
+                <td style="text-align:center;vertical-align:middle" data-bind="text:Id"></td>
+                <td style="text-align:center;vertical-align:middle" data-bind="text:Name"></td>
+                <td style="text-align:center;vertical-align:middle">
+                    <span class="d-inline-block img-thumbnail text-center mb-2">
+                        <img class="m-2" data-bind="attr : { src : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + Id + '.png', style : 'image-rendering:pixelated ;width: 100px;', title: Name}" onerror="this.src = '/images/pokemon-icon.png'; this.style.width = '128px';" />
+
+                    </span>
+                </td>
+                <td style="vertical-align:middle" class="text-center"><a class="btn btn-outline-secondary btn-sm" data-bind="attr: {href:'#pokemonDetails/'+Id }"><i class="fa fa-eye"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>

@@ -1,0 +1,90 @@
+﻿<section>
+    
+    <div id="loading" style="display: block" align="center" class="color-change-5x">
+            
+        <img class="col" src="https://media1.tenor.com/images/6fdea757d3ff0842b3177e0a186ea835/tenor.gif?itemid=14090425" style=" height:50% ;" align="middle" />
+    </div>
+    <div id="conteudo" style="display: none">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image:url(../../images/al.jpg);height:500px;background-size:cover">
+                    
+                </div>
+                <div class="carousel-item" style="height:500px;background-image:url(../../images/po.jpg);background-size:cover" >
+                </div>
+                <div class="carousel-item" style="height:500px;background-image:url(../../images/screen.jpg);background-size:cover">
+                </div>
+
+                <div class="carousel-item" style="height:500px;background-image:url(../../images/outra.jpg);background-size:cover">
+                </div>
+
+                <div class="carousel-item" style="height:500px;background-image:url(../../images/sarmander.jpg);background-size:cover">
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+
+
+
+        <div class="color-change-5x">
+            <div class="container cont">
+                <div class="border-bottom pt-4 pb-2 mb-3">
+                    <h2 data-bind="text:displayName"></h2>
+                </div>
+                <p data-bind="html:description" class="lead"></p>
+                <div class="row">
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png" style="height: 100px; image-rendering: pixelated" /></div>
+                    <div class="col-1"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png" style="height: 100px; image-rendering: pixelated" /></div>
+
+                </div>
+                <h3>Features</h3>
+                <ul data-bind="foreach: features">
+                    <li data-bind="text:$data"></li>
+                </ul>
+                <div>
+                    <p>To resume the loading video click the button below!</p>
+                    <p align="left"><button class="btn btn-primary" onclick="remove_hide()" type="button" id="bt">Click Here!</button></p>
+                    <div id="video" class="hide">
+                        <video controls="controls" style="width:1000px">
+                            <source src="../../images/Detective%20Pikachu%20Dance%20HD.mp4" type="video/mp4" />
+                        </video>
+                        <p align="right"><button class="btn btn-primary" onclick="add_hide()">Hide</button></p>
+                    </div>
+                </div>
+                <div class="bs-callout bs-callout-info">
+                    <h4>Read Me Please</h4>
+                    <p>
+                        For information about Pokemóns and general documentation please visit <a href="https://m.bulbapedia.bulbagarden.net/wiki/Main_Page" target="_blank">Bulbapedia!</a>.<br />
+                        The current Pokemón database was based on <a href="https://pokeapi.co/" target="_blank">PokéAPI</a> - The RESTful Pokémon API
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

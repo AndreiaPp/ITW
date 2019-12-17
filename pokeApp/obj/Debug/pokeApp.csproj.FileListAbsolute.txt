@@ -1,0 +1,33 @@
+C:\Projectos\pokemon\pokeApp\bin\pokeApp.dll.config
+C:\Projectos\pokemon\pokeApp\bin\pokeApp.dll
+C:\Projectos\pokemon\pokeApp\bin\pokeApp.pdb
+C:\Projectos\pokemon\pokeApp\bin\Antlr3.Runtime.dll
+C:\Projectos\pokemon\pokeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Projectos\pokemon\pokeApp\bin\Newtonsoft.Json.dll
+C:\Projectos\pokemon\pokeApp\bin\System.Web.Optimization.dll
+C:\Projectos\pokemon\pokeApp\bin\WebActivator.dll
+C:\Projectos\pokemon\pokeApp\bin\WebGrease.dll
+C:\Projectos\pokemon\pokeApp\bin\Antlr3.Runtime.pdb
+C:\Projectos\pokemon\pokeApp\bin\Newtonsoft.Json.xml
+C:\Projectos\pokemon\pokeApp\bin\System.Web.Optimization.xml
+C:\Projectos\pokemon\pokeApp\obj\Debug\pokeApp.csprojAssemblyReference.cache
+C:\Projectos\pokemon\pokeApp\obj\Debug\pokeApp.csproj.CoreCompileInputs.cache
+C:\Projectos\pokemon\pokeApp\obj\Debug\pokeApp.csproj.CopyComplete
+C:\Projectos\pokemon\pokeApp\obj\Debug\pokeApp.dll
+C:\Projectos\pokemon\pokeApp\obj\Debug\pokeApp.pdb
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\pokeApp.dll.config
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\pokeApp.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\pokeApp.pdb
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\Antlr3.Runtime.pdb
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\Newtonsoft.Json.xml
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\System.Web.Optimization.xml
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\obj\Debug\pokeApp.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\obj\Debug\pokeApp.csproj.CopyComplete
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\obj\Debug\pokeApp.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\obj\Debug\pokeApp.pdb
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\Antlr3.Runtime.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\Newtonsoft.Json.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\System.Web.Optimization.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\WebActivator.dll
+C:\Users\andre\OneDrive\Ambiente de Trabalho\Uni\Ano1Semestre1\ITW\Trabalho final\pokeApp\bin\WebGrease.dll
