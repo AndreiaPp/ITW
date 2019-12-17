@@ -6,7 +6,7 @@
         
         activate: function () {
             router.map([
-                { route: '', title:'Welcome', moduleId: 'viewmodels/welcome', nav: true },
+                { route: '', title:'Welcome', moduleId: 'viewmodels/welcome', nav: false },
                 { route: 'species', title: 'Species', moduleId: 'viewmodels/species', nav: true },
                 { route: 'species(/:id)', title: 'Species', moduleId: 'viewmodels/species', hash: '#species', nav: false },
                 { route: 'specieDetails(/:id)', title: 'Specie Details', moduleId: 'viewmodels/specieDetails', hash: '#specieDetails', nav: false },
